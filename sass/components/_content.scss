@@ -1,50 +1,54 @@
+/*FOTO E INFORMACION*/
 .main{
     margin: auto;
     width: 90%;
-    height: 800px;
+    height: auto;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
     .sobreMi{
-        margin-top: 10px;
+        margin: auto;
         width: 100%;
-        height: 50%;
+        height: 400px;
         display: flex;
         box-sizing: border-box;
         .texto{
-            width: 50%;
+            display: flex;
+            flex-direction: column;
+            width: 45%;
             height: 100%;
             padding: 20px;
             box-sizing: border-box;
             text-align: center;
+            justify-content: center;
             &__titulo{
                 font-size: large;
                 font-weight: bolder;
             }
         }
         .foto{
-            width: 50%;
+            width: 55%;
             height: 100%;
-            padding: 20px;
             box-sizing: border-box;
             justify-content: center;
             display: flex;
             justify-content: space-around;
             .img{
                 justify-content: center;
-                max-width: 280px;
+                min-width: 150px;
+                max-width: 300px;
                 border-radius: 50%;
                 border: 5px solid $colorPrincipal;
-                width: auto;
+                width: 70%;
+                margin: 20px;
             }
             .descripcion{
+                display: flex;
                 width: 30%;
-                height: 100%;
                 box-sizing: border-box;
                 justify-content: center;
+                padding-top: 110px;
                 text-align: center;
-                align-items: center;
-                align-content: center;
-                padding-top: 50px;
                 font-weight: bold;
 
             }
@@ -52,12 +56,11 @@
         }
     }
     .competencias{
-        border: 2px solid red;
+        margin-top: 100px;
         width: 100%;
         height: 50%;
         display: flex;
         .habilidades{
-            border: 1px solid salmon;
             width: 50%;
             height: 100%;
             section{
@@ -72,11 +75,9 @@
             }
         }
         .aplicaciones{
-            border: 1px solid cyan;
             width: 50%;
             height: 100%;
             .texto_app{
-                border: 1px solid white;
                 width: 100%;
                 text-align: center;
                 justify-content: center;
@@ -105,6 +106,17 @@
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+/*LOGOS*/
 .fa-html5{
     color: #db5816;
     
@@ -141,4 +153,55 @@
 }
 .github{
     color: #757575;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*PORTFOLIO*/
+.portfolio{
+    width: 90%;
+    height: 200px;
+    margin:auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.portfolio__texto{
+    height: 10%;
+    width: 90%;
+    margin: auto;
+    font-weight: bolder;
+    text-align: center;
+
+}
+.portfolio__proximamente1{
+
+    margin: auto;
+    width: 30%;
+    text-align: center;
+
+}
+.portfolio__proximamente2{
+
+    margin: auto;
+    width: 30%;
+    text-align: center;
+}
+.portfolio__proximamente3{
+
+    margin: auto;
+    width: 30%;
+    text-align: center;
 }

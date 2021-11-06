@@ -53,63 +53,66 @@
         text-align: center;
         border-radius: 10px; }
       .header .nav .menu li:hover {
-        background-image: linear-gradient(#5ee66c, green);
+        background-color: #5ee66c;
         font-weight: bolder;
         color: black;
         cursor: pointer; }
 
+/*FOTO E INFORMACION*/
 .main {
   margin: auto;
   width: 90%;
-  height: 800px;
+  height: auto;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  box-sizing: border-box; }
   .main .sobreMi {
-    margin-top: 10px;
+    margin: auto;
     width: 100%;
-    height: 50%;
+    height: 400px;
     display: flex;
     box-sizing: border-box; }
     .main .sobreMi .texto {
-      width: 50%;
+      display: flex;
+      flex-direction: column;
+      width: 45%;
       height: 100%;
       padding: 20px;
       box-sizing: border-box;
-      text-align: center; }
+      text-align: center;
+      justify-content: center; }
       .main .sobreMi .texto__titulo {
         font-size: large;
         font-weight: bolder; }
     .main .sobreMi .foto {
-      width: 50%;
+      width: 55%;
       height: 100%;
-      padding: 20px;
       box-sizing: border-box;
       justify-content: center;
       display: flex;
       justify-content: space-around; }
       .main .sobreMi .foto .img {
         justify-content: center;
-        max-width: 280px;
+        min-width: 150px;
+        max-width: 300px;
         border-radius: 50%;
         border: 5px solid #5ee66c;
-        width: auto; }
+        width: 70%;
+        margin: 20px; }
       .main .sobreMi .foto .descripcion {
+        display: flex;
         width: 30%;
-        height: 100%;
         box-sizing: border-box;
         justify-content: center;
+        padding-top: 110px;
         text-align: center;
-        align-items: center;
-        align-content: center;
-        padding-top: 50px;
         font-weight: bold; }
   .main .competencias {
-    border: 2px solid red;
+    margin-top: 100px;
     width: 100%;
     height: 50%;
     display: flex; }
     .main .competencias .habilidades {
-      border: 1px solid salmon;
       width: 50%;
       height: 100%; }
       .main .competencias .habilidades section {
@@ -120,11 +123,9 @@
           list-style: none;
           text-decoration: none; }
     .main .competencias .aplicaciones {
-      border: 1px solid cyan;
       width: 50%;
       height: 100%; }
       .main .competencias .aplicaciones .texto_app {
-        border: 1px solid white;
         width: 100%;
         text-align: center;
         justify-content: center;
@@ -145,6 +146,7 @@
             margin-left: auto;
             margin-right: auto; }
 
+/*LOGOS*/
 .fa-html5 {
   color: #db5816; }
 
@@ -181,13 +183,47 @@
 .github {
   color: #757575; }
 
+/*PORTFOLIO*/
+.portfolio {
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center; }
+
+.portfolio__texto {
+  height: 10%;
+  width: 90%;
+  margin: auto;
+  font-weight: bolder;
+  text-align: center; }
+
+.portfolio__proximamente1 {
+  margin: auto;
+  width: 30%;
+  text-align: center; }
+
+.portfolio__proximamente2 {
+  margin: auto;
+  width: 30%;
+  text-align: center; }
+
+.portfolio__proximamente3 {
+  margin: auto;
+  width: 30%;
+  text-align: center; }
+
 .footer {
   margin: auto;
+  margin-top: 50px;
   width: 90%;
   height: 400px; }
 
 body {
-  background-image: linear-gradient(black 65%, #1d1a4a);
+  background-image: linear-gradient(black, #1d1a4a);
   box-sizing: border-box;
   font-family: 'Source Code Pro', monospace;
   color: white; }

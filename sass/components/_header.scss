@@ -58,7 +58,7 @@
                 border-radius: 10px;
             }
             li:hover{
-                background-image: linear-gradient($colorPrincipal, green);
+                background-color: $colorPrincipal;
                 font-weight: bolder;
                 color: black;
                 cursor: pointer;
