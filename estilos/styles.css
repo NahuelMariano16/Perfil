@@ -112,10 +112,74 @@
       border: 1px solid salmon;
       width: 50%;
       height: 100%; }
+      .main .competencias .habilidades section {
+        text-align: center; }
+        .main .competencias .habilidades section p {
+          font-weight: bolder; }
+        .main .competencias .habilidades section ul {
+          list-style: none;
+          text-decoration: none; }
     .main .competencias .aplicaciones {
       border: 1px solid cyan;
       width: 50%;
       height: 100%; }
+      .main .competencias .aplicaciones .texto_app {
+        border: 1px solid white;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        font-weight: bolder; }
+      .main .competencias .aplicaciones .grid-container {
+        justify-content: center;
+        align-content: center;
+        display: grid;
+        grid-template-columns: 180px 180px 180px;
+        grid-template-rows: 180px 180px; }
+        .main .competencias .aplicaciones .grid-container .grid-item {
+          margin: auto; }
+          .main .competencias .aplicaciones .grid-container .grid-item p {
+            text-align: center; }
+          .main .competencias .aplicaciones .grid-container .grid-item i {
+            font-size: 4rem;
+            margin-left: auto;
+            margin-right: auto; }
+
+.fa-html5 {
+  color: #db5816; }
+
+.html5 {
+  color: #db5816; }
+
+.fa-css3-alt {
+  color: #12ade0; }
+
+.css {
+  color: #12ade0; }
+
+.fa-bootstrap {
+  color: #8a0ecc; }
+
+.bootstrap {
+  color: #8a0ecc; }
+
+.fa-sass {
+  color: #db6bd8; }
+
+.sass {
+  color: #db6bd8; }
+
+.fa-git {
+  color: #de5131; }
+
+.git {
+  color: #de5131; }
+
+.fa-github {
+  color: #757575; }
+
+.github {
+  color: #757575; }
 
 .footer {
   margin: auto;
