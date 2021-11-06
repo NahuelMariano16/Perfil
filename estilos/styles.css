@@ -1,0 +1,129 @@
+* {
+  margin: 0%;
+  padding: 0%; }
+
+.border {
+  border: 2px solid white; }
+  .border__celeste {
+    border: 2px solid lightblue; }
+  .border__rosa {
+    border: 2px solid pink; }
+
+.header {
+  margin: auto;
+  width: 100%;
+  height: 100px;
+  list-style: none;
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: black; }
+  .header .nav {
+    display: flex;
+    width: 100%; }
+    .header .nav .logo {
+      font-size: larger;
+      font-weight: bolder;
+      display: flex;
+      margin: auto;
+      width: 30%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      color: white; }
+    .header .nav .logo:hover {
+      scale: 1.5;
+      color: #5ee66c; }
+    .header .nav .menu {
+      margin: auto;
+      list-style: none;
+      padding: 0;
+      width: 70%;
+      height: 100%;
+      max-width: 800px;
+      justify-content: space-between;
+      align-content: center;
+      justify-content: center;
+      display: flex; }
+      .header .nav .menu li {
+        width: 20%;
+        display: inline-block;
+        margin: auto;
+        color: white;
+        text-align: center;
+        border-radius: 10px; }
+      .header .nav .menu li:hover {
+        background-image: linear-gradient(#5ee66c, green);
+        font-weight: bolder;
+        color: black;
+        cursor: pointer; }
+
+.main {
+  margin: auto;
+  width: 90%;
+  height: 800px;
+  display: flex;
+  flex-direction: column; }
+  .main .sobreMi {
+    margin-top: 10px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    box-sizing: border-box; }
+    .main .sobreMi .texto {
+      width: 50%;
+      height: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center; }
+      .main .sobreMi .texto__titulo {
+        font-size: large;
+        font-weight: bolder; }
+    .main .sobreMi .foto {
+      width: 50%;
+      height: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+      justify-content: center;
+      display: flex;
+      justify-content: space-around; }
+      .main .sobreMi .foto .img {
+        justify-content: center;
+        max-width: 280px;
+        border-radius: 50%;
+        border: 5px solid #5ee66c;
+        width: auto; }
+      .main .sobreMi .foto .descripcion {
+        width: 30%;
+        height: 100%;
+        box-sizing: border-box;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        padding-top: 50px;
+        font-weight: bold; }
+  .main .competencias {
+    border: 2px solid red;
+    width: 100%;
+    height: 50%;
+    display: flex; }
+    .main .competencias .habilidades {
+      border: 1px solid salmon;
+      width: 50%;
+      height: 100%; }
+    .main .competencias .aplicaciones {
+      border: 1px solid cyan;
+      width: 50%;
+      height: 100%; }
+
+.footer {
+  margin: auto;
+  width: 90%;
+  height: 400px; }
+
+body {
+  background-image: linear-gradient(black 65%, #1d1a4a);
+  box-sizing: border-box;
+  font-family: 'Source Code Pro', monospace;
+  color: white; }
