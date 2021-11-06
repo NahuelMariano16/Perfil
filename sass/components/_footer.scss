@@ -3,4 +3,34 @@
     margin-top: 50px;
     width: 90%;
     height: 400px;
+    .contacto{
+        width: 90%;
+        margin: auto;
+
+    }
+    .textoContacto{
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+    .metodos{
+        width: 90%;
+        margin:auto;
+        margin-top:80px;
+        display: flex;
+        font-size: 4rem;
+        justify-content: space-around;
+        text-align: center;
+        .texto-icono{
+            font-size: small;
+        }
+    }
+}
+/*LOGOS*/
+.mail{
+    color: #de1b1b;
+}
+.linkedin{
+    color: #2950cf;
 }

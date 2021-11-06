@@ -2,13 +2,6 @@
   margin: 0%;
   padding: 0%; }
 
-.border {
-  border: 2px solid white; }
-  .border__celeste {
-    border: 2px solid lightblue; }
-  .border__rosa {
-    border: 2px solid pink; }
-
 .header {
   margin: auto;
   width: 100%;
@@ -221,6 +214,30 @@
   margin-top: 50px;
   width: 90%;
   height: 400px; }
+  .footer .contacto {
+    width: 90%;
+    margin: auto; }
+  .footer .textoContacto {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px; }
+  .footer .metodos {
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    font-size: 4rem;
+    justify-content: space-around;
+    text-align: center; }
+    .footer .metodos .texto-icono {
+      font-size: small; }
+
+/*LOGOS*/
+.mail {
+  color: #de1b1b; }
+
+.linkedin {
+  color: #2950cf; }
 
 body {
   background-image: linear-gradient(black, #1d1a4a);
