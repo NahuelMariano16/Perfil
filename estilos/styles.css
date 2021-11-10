@@ -78,7 +78,7 @@
         font-size: large;
         font-weight: bolder; }
     .main .sobreMi .foto {
-      width: 55%;
+      width: 75%;
       height: 100%;
       box-sizing: border-box;
       justify-content: center;
@@ -139,6 +139,39 @@
             margin-left: auto;
             margin-right: auto; }
 
+/*PORTFOLIO*/
+.portfolio {
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center; }
+
+.portfolio__texto {
+  height: 10%;
+  width: 90%;
+  margin: auto;
+  font-weight: bolder;
+  text-align: center; }
+
+.portfolio__proximamente1 {
+  margin: auto;
+  width: 30%;
+  text-align: center; }
+
+.portfolio__proximamente2 {
+  margin: auto;
+  width: 30%;
+  text-align: center; }
+
+.portfolio__proximamente3 {
+  margin: auto;
+  width: 30%;
+  text-align: center; }
+
 /*LOGOS*/
 .fa-html5 {
   color: #db5816; }
@@ -176,39 +209,6 @@
 .github {
   color: #757575; }
 
-/*PORTFOLIO*/
-.portfolio {
-  width: 90%;
-  height: 200px;
-  margin: auto;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-between;
-  text-align: center; }
-
-.portfolio__texto {
-  height: 10%;
-  width: 90%;
-  margin: auto;
-  font-weight: bolder;
-  text-align: center; }
-
-.portfolio__proximamente1 {
-  margin: auto;
-  width: 30%;
-  text-align: center; }
-
-.portfolio__proximamente2 {
-  margin: auto;
-  width: 30%;
-  text-align: center; }
-
-.portfolio__proximamente3 {
-  margin: auto;
-  width: 30%;
-  text-align: center; }
-
 .footer {
   margin: auto;
   margin-top: 50px;
@@ -238,6 +238,55 @@
 
 .linkedin {
   color: #2950cf; }
+
+@media screen and (max-width: 768px) {
+  * {
+    font-size: x-small;
+    margin: auto; }
+  .main {
+    width: auto;
+    height: auto;
+    margin: auto; }
+  .foto {
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center; }
+  .img {
+    align-content: center;
+    margin: auto; }
+  .sobreMi {
+    margin: auto;
+    height: auto;
+    width: auto;
+    flex-direction: column; }
+  .texto {
+    margin: auto;
+    margin-top: 80px; }
+  .descripcion {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 110px; }
+  .competencias {
+    width: auto;
+    height: auto;
+    margin: auto;
+    flex-direction: column; }
+  .habilidades {
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 20px; }
+  .aplicaciones {
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 20px; }
+  .metodos {
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-around; } }
 
 body {
   background-image: linear-gradient(black, #1d1a4a);

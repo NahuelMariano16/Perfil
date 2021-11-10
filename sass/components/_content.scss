@@ -26,8 +26,8 @@
                 font-weight: bolder;
             }
         }
-        .foto{
-            width: 55%;
+        .foto{ 
+            width: 75%;
             height: 100%;
             box-sizing: border-box;
             justify-content: center;
@@ -110,7 +110,45 @@
 
 
 
+/*PORTFOLIO*/
+.portfolio{
+    width: 90%;
+    height: 200px;
+    margin:auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.portfolio__texto{
+    height: 10%;
+    width: 90%;
+    margin: auto;
+    font-weight: bolder;
+    text-align: center;
 
+}
+.portfolio__proximamente1{
+
+    margin: auto;
+    width: 30%;
+    text-align: center;
+
+}
+.portfolio__proximamente2{
+
+    margin: auto;
+    width: 30%;
+    text-align: center;
+}
+.portfolio__proximamente3{
+
+    margin: auto;
+    width: 30%;
+    text-align: center;
+}
 
 
 
@@ -166,42 +204,3 @@
 
 
 
-/*PORTFOLIO*/
-.portfolio{
-    width: 90%;
-    height: 200px;
-    margin:auto;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    
-}
-.portfolio__texto{
-    height: 10%;
-    width: 90%;
-    margin: auto;
-    font-weight: bolder;
-    text-align: center;
-
-}
-.portfolio__proximamente1{
-
-    margin: auto;
-    width: 30%;
-    text-align: center;
-
-}
-.portfolio__proximamente2{
-
-    margin: auto;
-    width: 30%;
-    text-align: center;
-}
-.portfolio__proximamente3{
-
-    margin: auto;
-    width: 30%;
-    text-align: center;
-}

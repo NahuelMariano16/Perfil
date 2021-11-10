@@ -1,0 +1,61 @@
+@media screen and(max-width:768px){
+*{
+    font-size: x-small;
+    margin:auto;
+}
+.main{
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+.foto{
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    align-content: center;
+    margin: auto;
+}
+.sobreMi{
+    margin: auto;
+    height: auto;
+    width: auto;
+    flex-direction: column;
+}
+.texto{
+    margin: auto;
+    margin-top: 80px;
+}
+.descripcion{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom:110px;
+}
+.competencias{
+    width: auto;
+    height: auto;
+    margin: auto;
+    flex-direction: column;
+
+}
+.habilidades{
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 20px;
+}
+.aplicaciones{
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 20px;
+}
+.metodos{
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-around;
+}
+}
